@@ -1,0 +1,1345 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EACFC421-0428-4984-86F2-74A5BE4F0C75}|WebApi\\WebApi.csproj|c:\\users\\franco\\source\\repos\\backendcrm\\webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EACFC421-0428-4984-86F2-74A5BE4F0C75}|WebApi\\WebApi.csproj|solutionrelative:webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EACFC421-0428-4984-86F2-74A5BE4F0C75}|WebApi\\WebApi.csproj|c:\\users\\franco\\source\\repos\\backendcrm\\webapi\\controllers\\projectscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EACFC421-0428-4984-86F2-74A5BE4F0C75}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\projectscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EACFC421-0428-4984-86F2-74A5BE4F0C75}|WebApi\\WebApi.csproj|c:\\users\\franco\\source\\repos\\backendcrm\\webapi\\controllers\\taskstatuscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EACFC421-0428-4984-86F2-74A5BE4F0C75}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\taskstatuscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98002C57-7FC6-4930-92F0-13CE55B66BA3}|Application\\Application.csproj|c:\\users\\franco\\source\\repos\\backendcrm\\application\\usecase\\taskservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98002C57-7FC6-4930-92F0-13CE55B66BA3}|Application\\Application.csproj|solutionrelative:application\\usecase\\taskservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98002C57-7FC6-4930-92F0-13CE55B66BA3}|Application\\Application.csproj|c:\\users\\franco\\source\\repos\\backendcrm\\application\\dtos\\requests\\clientrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98002C57-7FC6-4930-92F0-13CE55B66BA3}|Application\\Application.csproj|solutionrelative:application\\dtos\\requests\\clientrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98002C57-7FC6-4930-92F0-13CE55B66BA3}|Application\\Application.csproj|c:\\users\\franco\\source\\repos\\backendcrm\\application\\usecase\\projectservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98002C57-7FC6-4930-92F0-13CE55B66BA3}|Application\\Application.csproj|solutionrelative:application\\usecase\\projectservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D17F1784-DFDA-4A3A-BC84-07D1A5BA215C}|Infrastructure\\Infrastructure.csproj|c:\\users\\franco\\source\\repos\\backendcrm\\infrastructure\\querys\\projectquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D17F1784-DFDA-4A3A-BC84-07D1A5BA215C}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\querys\\projectquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98002C57-7FC6-4930-92F0-13CE55B66BA3}|Application\\Application.csproj|c:\\users\\franco\\source\\repos\\backendcrm\\application\\interfaces\\project\\iprojectservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98002C57-7FC6-4930-92F0-13CE55B66BA3}|Application\\Application.csproj|solutionrelative:application\\interfaces\\project\\iprojectservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98002C57-7FC6-4930-92F0-13CE55B66BA3}|Application\\Application.csproj|c:\\users\\franco\\source\\repos\\backendcrm\\application\\interfaces\\project\\iprojectquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98002C57-7FC6-4930-92F0-13CE55B66BA3}|Application\\Application.csproj|solutionrelative:application\\interfaces\\project\\iprojectquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D17F1784-DFDA-4A3A-BC84-07D1A5BA215C}|Infrastructure\\Infrastructure.csproj|c:\\users\\franco\\source\\repos\\backendcrm\\infrastructure\\appdbcontext\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D17F1784-DFDA-4A3A-BC84-07D1A5BA215C}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\appdbcontext\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98002C57-7FC6-4930-92F0-13CE55B66BA3}|Application\\Application.csproj|c:\\users\\franco\\source\\repos\\backendcrm\\application\\usecase\\interactionservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98002C57-7FC6-4930-92F0-13CE55B66BA3}|Application\\Application.csproj|solutionrelative:application\\usecase\\interactionservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98002C57-7FC6-4930-92F0-13CE55B66BA3}|Application\\Application.csproj|c:\\users\\franco\\source\\repos\\backendcrm\\application\\usecase\\interactiontypeservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98002C57-7FC6-4930-92F0-13CE55B66BA3}|Application\\Application.csproj|solutionrelative:application\\usecase\\interactiontypeservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4C06AC4-D2C6-433F-9A81-E726FBA36A52}|Domain\\Domain.csproj|c:\\users\\franco\\source\\repos\\backendcrm\\domain\\entities\\clients.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4C06AC4-D2C6-433F-9A81-E726FBA36A52}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\clients.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98002C57-7FC6-4930-92F0-13CE55B66BA3}|Application\\Application.csproj|c:\\users\\franco\\source\\repos\\backendcrm\\application\\exceptions\\invaliddatetimeexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98002C57-7FC6-4930-92F0-13CE55B66BA3}|Application\\Application.csproj|solutionrelative:application\\exceptions\\invaliddatetimeexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98002C57-7FC6-4930-92F0-13CE55B66BA3}|Application\\Application.csproj|c:\\users\\franco\\source\\repos\\backendcrm\\application\\exceptions\\invalidinteractiontypeexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98002C57-7FC6-4930-92F0-13CE55B66BA3}|Application\\Application.csproj|solutionrelative:application\\exceptions\\invalidinteractiontypeexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98002C57-7FC6-4930-92F0-13CE55B66BA3}|Application\\Application.csproj|c:\\users\\franco\\source\\repos\\backendcrm\\application\\exceptions\\invalidclientexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98002C57-7FC6-4930-92F0-13CE55B66BA3}|Application\\Application.csproj|solutionrelative:application\\exceptions\\invalidclientexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98002C57-7FC6-4930-92F0-13CE55B66BA3}|Application\\Application.csproj|c:\\users\\franco\\source\\repos\\backendcrm\\application\\exceptions\\invalidcampaigntypeexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98002C57-7FC6-4930-92F0-13CE55B66BA3}|Application\\Application.csproj|solutionrelative:application\\exceptions\\invalidcampaigntypeexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98002C57-7FC6-4930-92F0-13CE55B66BA3}|Application\\Application.csproj|c:\\users\\franco\\source\\repos\\backendcrm\\application\\exceptions\\emptyfieldexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98002C57-7FC6-4930-92F0-13CE55B66BA3}|Application\\Application.csproj|solutionrelative:application\\exceptions\\emptyfieldexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98002C57-7FC6-4930-92F0-13CE55B66BA3}|Application\\Application.csproj|c:\\users\\franco\\source\\repos\\backendcrm\\application\\dtos\\requests\\interactionrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98002C57-7FC6-4930-92F0-13CE55B66BA3}|Application\\Application.csproj|solutionrelative:application\\dtos\\requests\\interactionrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D17F1784-DFDA-4A3A-BC84-07D1A5BA215C}|Infrastructure\\Infrastructure.csproj|c:\\users\\franco\\source\\repos\\backendcrm\\infrastructure\\querys\\userquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D17F1784-DFDA-4A3A-BC84-07D1A5BA215C}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\querys\\userquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98002C57-7FC6-4930-92F0-13CE55B66BA3}|Application\\Application.csproj|c:\\users\\franco\\source\\repos\\backendcrm\\application\\dtos\\response\\taskresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98002C57-7FC6-4930-92F0-13CE55B66BA3}|Application\\Application.csproj|solutionrelative:application\\dtos\\response\\taskresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98002C57-7FC6-4930-92F0-13CE55B66BA3}|Application\\Application.csproj|c:\\users\\franco\\source\\repos\\backendcrm\\application\\dtos\\requests\\taskrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98002C57-7FC6-4930-92F0-13CE55B66BA3}|Application\\Application.csproj|solutionrelative:application\\dtos\\requests\\taskrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98002C57-7FC6-4930-92F0-13CE55B66BA3}|Application\\Application.csproj|c:\\users\\franco\\source\\repos\\backendcrm\\application\\dtos\\response\\clientresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98002C57-7FC6-4930-92F0-13CE55B66BA3}|Application\\Application.csproj|solutionrelative:application\\dtos\\response\\clientresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98002C57-7FC6-4930-92F0-13CE55B66BA3}|Application\\Application.csproj|c:\\users\\franco\\source\\repos\\backendcrm\\application\\dtos\\response\\projectresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98002C57-7FC6-4930-92F0-13CE55B66BA3}|Application\\Application.csproj|solutionrelative:application\\dtos\\response\\projectresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98002C57-7FC6-4930-92F0-13CE55B66BA3}|Application\\Application.csproj|c:\\users\\franco\\source\\repos\\backendcrm\\application\\dtos\\response\\projectdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98002C57-7FC6-4930-92F0-13CE55B66BA3}|Application\\Application.csproj|solutionrelative:application\\dtos\\response\\projectdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98002C57-7FC6-4930-92F0-13CE55B66BA3}|Application\\Application.csproj|c:\\users\\franco\\source\\repos\\backendcrm\\application\\dtos\\response\\genericresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98002C57-7FC6-4930-92F0-13CE55B66BA3}|Application\\Application.csproj|solutionrelative:application\\dtos\\response\\genericresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98002C57-7FC6-4930-92F0-13CE55B66BA3}|Application\\Application.csproj|c:\\users\\franco\\source\\repos\\backendcrm\\application\\dtos\\response\\interactionresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98002C57-7FC6-4930-92F0-13CE55B66BA3}|Application\\Application.csproj|solutionrelative:application\\dtos\\response\\interactionresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98002C57-7FC6-4930-92F0-13CE55B66BA3}|Application\\Application.csproj|c:\\users\\franco\\source\\repos\\backendcrm\\application\\mappers\\automapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98002C57-7FC6-4930-92F0-13CE55B66BA3}|Application\\Application.csproj|solutionrelative:application\\mappers\\automapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98002C57-7FC6-4930-92F0-13CE55B66BA3}|Application\\Application.csproj|c:\\users\\franco\\source\\repos\\backendcrm\\application\\dtos\\requests\\projectrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98002C57-7FC6-4930-92F0-13CE55B66BA3}|Application\\Application.csproj|solutionrelative:application\\dtos\\requests\\projectrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D17F1784-DFDA-4A3A-BC84-07D1A5BA215C}|Infrastructure\\Infrastructure.csproj|c:\\users\\franco\\source\\repos\\backendcrm\\infrastructure\\commands\\projectcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D17F1784-DFDA-4A3A-BC84-07D1A5BA215C}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\commands\\projectcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98002C57-7FC6-4930-92F0-13CE55B66BA3}|Application\\Application.csproj|c:\\users\\franco\\source\\repos\\backendcrm\\application\\dtos\\response\\userreponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98002C57-7FC6-4930-92F0-13CE55B66BA3}|Application\\Application.csproj|solutionrelative:application\\dtos\\response\\userreponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98002C57-7FC6-4930-92F0-13CE55B66BA3}|Application\\Application.csproj|c:\\users\\franco\\source\\repos\\backendcrm\\application\\interfaces\\project\\iprojectcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98002C57-7FC6-4930-92F0-13CE55B66BA3}|Application\\Application.csproj|solutionrelative:application\\interfaces\\project\\iprojectcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EACFC421-0428-4984-86F2-74A5BE4F0C75}|WebApi\\WebApi.csproj|c:\\users\\franco\\source\\repos\\backendcrm\\webapi\\controllers\\interactiontypescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EACFC421-0428-4984-86F2-74A5BE4F0C75}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\interactiontypescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EACFC421-0428-4984-86F2-74A5BE4F0C75}|WebApi\\WebApi.csproj|c:\\users\\franco\\source\\repos\\backendcrm\\webapi\\controllers\\clientscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EACFC421-0428-4984-86F2-74A5BE4F0C75}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\clientscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98002C57-7FC6-4930-92F0-13CE55B66BA3}|Application\\Application.csproj|c:\\users\\franco\\source\\repos\\backendcrm\\application\\exceptions\\negativenumberexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98002C57-7FC6-4930-92F0-13CE55B66BA3}|Application\\Application.csproj|solutionrelative:application\\exceptions\\negativenumberexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4C06AC4-D2C6-433F-9A81-E726FBA36A52}|Domain\\Domain.csproj|c:\\users\\franco\\source\\repos\\backendcrm\\domain\\entities\\projects.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4C06AC4-D2C6-433F-9A81-E726FBA36A52}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\projects.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4C06AC4-D2C6-433F-9A81-E726FBA36A52}|Domain\\Domain.csproj|c:\\users\\franco\\source\\repos\\backendcrm\\domain\\entities\\campaigntypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4C06AC4-D2C6-433F-9A81-E726FBA36A52}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\campaigntypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4C06AC4-D2C6-433F-9A81-E726FBA36A52}|Domain\\Domain.csproj|c:\\users\\franco\\source\\repos\\backendcrm\\domain\\entities\\tasks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4C06AC4-D2C6-433F-9A81-E726FBA36A52}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\tasks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98002C57-7FC6-4930-92F0-13CE55B66BA3}|Application\\Application.csproj|c:\\users\\franco\\source\\repos\\backendcrm\\application\\usecase\\clientservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98002C57-7FC6-4930-92F0-13CE55B66BA3}|Application\\Application.csproj|solutionrelative:application\\usecase\\clientservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98002C57-7FC6-4930-92F0-13CE55B66BA3}|Application\\Application.csproj|c:\\users\\franco\\source\\repos\\backendcrm\\application\\usecase\\campaigntypeservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98002C57-7FC6-4930-92F0-13CE55B66BA3}|Application\\Application.csproj|solutionrelative:application\\usecase\\campaigntypeservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98002C57-7FC6-4930-92F0-13CE55B66BA3}|Application\\Application.csproj|c:\\users\\franco\\source\\repos\\backendcrm\\application\\interfaces\\interaction\\iinteractionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98002C57-7FC6-4930-92F0-13CE55B66BA3}|Application\\Application.csproj|solutionrelative:application\\interfaces\\interaction\\iinteractionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98002C57-7FC6-4930-92F0-13CE55B66BA3}|Application\\Application.csproj|c:\\users\\franco\\source\\repos\\backendcrm\\application\\usecase\\taskstatusservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98002C57-7FC6-4930-92F0-13CE55B66BA3}|Application\\Application.csproj|solutionrelative:application\\usecase\\taskstatusservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98002C57-7FC6-4930-92F0-13CE55B66BA3}|Application\\Application.csproj|c:\\users\\franco\\source\\repos\\backendcrm\\application\\exceptions\\invalidtaskexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98002C57-7FC6-4930-92F0-13CE55B66BA3}|Application\\Application.csproj|solutionrelative:application\\exceptions\\invalidtaskexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D17F1784-DFDA-4A3A-BC84-07D1A5BA215C}|Infrastructure\\Infrastructure.csproj|c:\\users\\franco\\source\\repos\\backendcrm\\infrastructure\\querys\\taskquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D17F1784-DFDA-4A3A-BC84-07D1A5BA215C}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\querys\\taskquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98002C57-7FC6-4930-92F0-13CE55B66BA3}|Application\\Application.csproj|c:\\users\\franco\\source\\repos\\backendcrm\\application\\interfaces\\tasks\\itaskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98002C57-7FC6-4930-92F0-13CE55B66BA3}|Application\\Application.csproj|solutionrelative:application\\interfaces\\tasks\\itaskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98002C57-7FC6-4930-92F0-13CE55B66BA3}|Application\\Application.csproj|c:\\users\\franco\\source\\repos\\backendcrm\\application\\interfaces\\tasks\\itaskquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98002C57-7FC6-4930-92F0-13CE55B66BA3}|Application\\Application.csproj|solutionrelative:application\\interfaces\\tasks\\itaskquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98002C57-7FC6-4930-92F0-13CE55B66BA3}|Application\\Application.csproj|c:\\users\\franco\\source\\repos\\backendcrm\\application\\exceptions\\invalidprojectexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98002C57-7FC6-4930-92F0-13CE55B66BA3}|Application\\Application.csproj|solutionrelative:application\\exceptions\\invalidprojectexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98002C57-7FC6-4930-92F0-13CE55B66BA3}|Application\\Application.csproj|c:\\users\\franco\\source\\repos\\backendcrm\\application\\exceptions\\invalidstatusexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98002C57-7FC6-4930-92F0-13CE55B66BA3}|Application\\Application.csproj|solutionrelative:application\\exceptions\\invalidstatusexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98002C57-7FC6-4930-92F0-13CE55B66BA3}|Application\\Application.csproj|c:\\users\\franco\\source\\repos\\backendcrm\\application\\exceptions\\invaliduserexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98002C57-7FC6-4930-92F0-13CE55B66BA3}|Application\\Application.csproj|solutionrelative:application\\exceptions\\invaliduserexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98002C57-7FC6-4930-92F0-13CE55B66BA3}|Application\\Application.csproj|c:\\users\\franco\\source\\repos\\backendcrm\\application\\exceptions\\samenameprojectexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98002C57-7FC6-4930-92F0-13CE55B66BA3}|Application\\Application.csproj|solutionrelative:application\\exceptions\\samenameprojectexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98002C57-7FC6-4930-92F0-13CE55B66BA3}|Application\\Application.csproj|c:\\users\\franco\\source\\repos\\backendcrm\\application\\interfaces\\client\\iclientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98002C57-7FC6-4930-92F0-13CE55B66BA3}|Application\\Application.csproj|solutionrelative:application\\interfaces\\client\\iclientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98002C57-7FC6-4930-92F0-13CE55B66BA3}|Application\\Application.csproj|c:\\users\\franco\\source\\repos\\backendcrm\\application\\interfaces\\client\\iclientquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98002C57-7FC6-4930-92F0-13CE55B66BA3}|Application\\Application.csproj|solutionrelative:application\\interfaces\\client\\iclientquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D17F1784-DFDA-4A3A-BC84-07D1A5BA215C}|Infrastructure\\Infrastructure.csproj|c:\\users\\franco\\source\\repos\\backendcrm\\infrastructure\\querys\\taskstatusquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D17F1784-DFDA-4A3A-BC84-07D1A5BA215C}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\querys\\taskstatusquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98002C57-7FC6-4930-92F0-13CE55B66BA3}|Application\\Application.csproj|c:\\users\\franco\\source\\repos\\backendcrm\\application\\interfaces\\interaction\\iinteractionquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98002C57-7FC6-4930-92F0-13CE55B66BA3}|Application\\Application.csproj|solutionrelative:application\\interfaces\\interaction\\iinteractionquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98002C57-7FC6-4930-92F0-13CE55B66BA3}|Application\\Application.csproj|c:\\users\\franco\\source\\repos\\backendcrm\\application\\interfaces\\interaction\\iinteractioncommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98002C57-7FC6-4930-92F0-13CE55B66BA3}|Application\\Application.csproj|solutionrelative:application\\interfaces\\interaction\\iinteractioncommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98002C57-7FC6-4930-92F0-13CE55B66BA3}|Application\\Application.csproj|c:\\users\\franco\\source\\repos\\backendcrm\\application\\interfaces\\client\\iclientcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98002C57-7FC6-4930-92F0-13CE55B66BA3}|Application\\Application.csproj|solutionrelative:application\\interfaces\\client\\iclientcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98002C57-7FC6-4930-92F0-13CE55B66BA3}|Application\\Application.csproj|c:\\users\\franco\\source\\repos\\backendcrm\\application\\interfaces\\campaigntype\\icampaigntypequery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98002C57-7FC6-4930-92F0-13CE55B66BA3}|Application\\Application.csproj|solutionrelative:application\\interfaces\\campaigntype\\icampaigntypequery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98002C57-7FC6-4930-92F0-13CE55B66BA3}|Application\\Application.csproj|c:\\users\\franco\\source\\repos\\backendcrm\\application\\interfaces\\user\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98002C57-7FC6-4930-92F0-13CE55B66BA3}|Application\\Application.csproj|solutionrelative:application\\interfaces\\user\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98002C57-7FC6-4930-92F0-13CE55B66BA3}|Application\\Application.csproj|c:\\users\\franco\\source\\repos\\backendcrm\\application\\interfaces\\interactiontype\\iinteractiontypeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98002C57-7FC6-4930-92F0-13CE55B66BA3}|Application\\Application.csproj|solutionrelative:application\\interfaces\\interactiontype\\iinteractiontypeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D17F1784-DFDA-4A3A-BC84-07D1A5BA215C}|Infrastructure\\Infrastructure.csproj|c:\\users\\franco\\source\\repos\\backendcrm\\infrastructure\\querys\\interactionquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D17F1784-DFDA-4A3A-BC84-07D1A5BA215C}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\querys\\interactionquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D17F1784-DFDA-4A3A-BC84-07D1A5BA215C}|Infrastructure\\Infrastructure.csproj|c:\\users\\franco\\source\\repos\\backendcrm\\infrastructure\\querys\\interactiontypequery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D17F1784-DFDA-4A3A-BC84-07D1A5BA215C}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\querys\\interactiontypequery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98002C57-7FC6-4930-92F0-13CE55B66BA3}|Application\\Application.csproj|c:\\users\\franco\\source\\repos\\backendcrm\\application\\interfaces\\interactiontype\\iinteractiontypequery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98002C57-7FC6-4930-92F0-13CE55B66BA3}|Application\\Application.csproj|solutionrelative:application\\interfaces\\interactiontype\\iinteractiontypequery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D17F1784-DFDA-4A3A-BC84-07D1A5BA215C}|Infrastructure\\Infrastructure.csproj|c:\\users\\franco\\source\\repos\\backendcrm\\infrastructure\\commands\\taskcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D17F1784-DFDA-4A3A-BC84-07D1A5BA215C}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\commands\\taskcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D17F1784-DFDA-4A3A-BC84-07D1A5BA215C}|Infrastructure\\Infrastructure.csproj|c:\\users\\franco\\source\\repos\\backendcrm\\infrastructure\\commands\\interactioncommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D17F1784-DFDA-4A3A-BC84-07D1A5BA215C}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\commands\\interactioncommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D17F1784-DFDA-4A3A-BC84-07D1A5BA215C}|Infrastructure\\Infrastructure.csproj|c:\\users\\franco\\source\\repos\\backendcrm\\infrastructure\\querys\\clientquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D17F1784-DFDA-4A3A-BC84-07D1A5BA215C}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\querys\\clientquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D17F1784-DFDA-4A3A-BC84-07D1A5BA215C}|Infrastructure\\Infrastructure.csproj|c:\\users\\franco\\source\\repos\\backendcrm\\infrastructure\\querys\\campaigntypequery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D17F1784-DFDA-4A3A-BC84-07D1A5BA215C}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\querys\\campaigntypequery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D17F1784-DFDA-4A3A-BC84-07D1A5BA215C}|Infrastructure\\Infrastructure.csproj|c:\\users\\franco\\source\\repos\\backendcrm\\infrastructure\\commands\\clientcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D17F1784-DFDA-4A3A-BC84-07D1A5BA215C}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\commands\\clientcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98002C57-7FC6-4930-92F0-13CE55B66BA3}|Application\\Application.csproj|c:\\users\\franco\\source\\repos\\backendcrm\\application\\interfaces\\tasks\\itaskcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98002C57-7FC6-4930-92F0-13CE55B66BA3}|Application\\Application.csproj|solutionrelative:application\\interfaces\\tasks\\itaskcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98002C57-7FC6-4930-92F0-13CE55B66BA3}|Application\\Application.csproj|c:\\users\\franco\\source\\repos\\backendcrm\\application\\interfaces\\taskstatus\\itaskstatusquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98002C57-7FC6-4930-92F0-13CE55B66BA3}|Application\\Application.csproj|solutionrelative:application\\interfaces\\taskstatus\\itaskstatusquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98002C57-7FC6-4930-92F0-13CE55B66BA3}|Application\\Application.csproj|c:\\users\\franco\\source\\repos\\backendcrm\\application\\interfaces\\taskstatus\\itaskstatusservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98002C57-7FC6-4930-92F0-13CE55B66BA3}|Application\\Application.csproj|solutionrelative:application\\interfaces\\taskstatus\\itaskstatusservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98002C57-7FC6-4930-92F0-13CE55B66BA3}|Application\\Application.csproj|c:\\users\\franco\\source\\repos\\backendcrm\\application\\interfaces\\user\\iuserquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98002C57-7FC6-4930-92F0-13CE55B66BA3}|Application\\Application.csproj|solutionrelative:application\\interfaces\\user\\iuserquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EACFC421-0428-4984-86F2-74A5BE4F0C75}|WebApi\\WebApi.csproj|c:\\users\\franco\\source\\repos\\backendcrm\\webapi\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EACFC421-0428-4984-86F2-74A5BE4F0C75}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EACFC421-0428-4984-86F2-74A5BE4F0C75}|WebApi\\WebApi.csproj|c:\\users\\franco\\source\\repos\\backendcrm\\webapi\\controllers\\campaigntypescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EACFC421-0428-4984-86F2-74A5BE4F0C75}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\campaigntypescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98002C57-7FC6-4930-92F0-13CE55B66BA3}|Application\\Application.csproj|c:\\users\\franco\\source\\repos\\backendcrm\\application\\interfaces\\campaigntype\\icampaigntypeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98002C57-7FC6-4930-92F0-13CE55B66BA3}|Application\\Application.csproj|solutionrelative:application\\interfaces\\campaigntype\\icampaigntypeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98002C57-7FC6-4930-92F0-13CE55B66BA3}|Application\\Application.csproj|c:\\users\\franco\\source\\repos\\backendcrm\\application\\dtos\\response\\apierror.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98002C57-7FC6-4930-92F0-13CE55B66BA3}|Application\\Application.csproj|solutionrelative:application\\dtos\\response\\apierror.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4C06AC4-D2C6-433F-9A81-E726FBA36A52}|Domain\\Domain.csproj|c:\\users\\franco\\source\\repos\\backendcrm\\domain\\entities\\taskstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4C06AC4-D2C6-433F-9A81-E726FBA36A52}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\taskstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4C06AC4-D2C6-433F-9A81-E726FBA36A52}|Domain\\Domain.csproj|c:\\users\\franco\\source\\repos\\backendcrm\\domain\\entities\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4C06AC4-D2C6-433F-9A81-E726FBA36A52}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4C06AC4-D2C6-433F-9A81-E726FBA36A52}|Domain\\Domain.csproj|c:\\users\\franco\\source\\repos\\backendcrm\\domain\\entities\\interactiontypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4C06AC4-D2C6-433F-9A81-E726FBA36A52}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\interactiontypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4C06AC4-D2C6-433F-9A81-E726FBA36A52}|Domain\\Domain.csproj|c:\\users\\franco\\source\\repos\\backendcrm\\domain\\entities\\interactions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4C06AC4-D2C6-433F-9A81-E726FBA36A52}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\interactions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98002C57-7FC6-4930-92F0-13CE55B66BA3}|Application\\Application.csproj|c:\\users\\franco\\source\\repos\\backendcrm\\application\\usecase\\userservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98002C57-7FC6-4930-92F0-13CE55B66BA3}|Application\\Application.csproj|solutionrelative:application\\usecase\\userservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98002C57-7FC6-4930-92F0-13CE55B66BA3}|Application\\Application.csproj|c:\\users\\franco\\source\\repos\\backendcrm\\application\\application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{98002C57-7FC6-4930-92F0-13CE55B66BA3}|Application\\Application.csproj|solutionrelative:application\\application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EACFC421-0428-4984-86F2-74A5BE4F0C75}|WebApi\\WebApi.csproj|c:\\users\\franco\\source\\repos\\backendcrm\\webapi\\webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{EACFC421-0428-4984-86F2-74A5BE4F0C75}|WebApi\\WebApi.csproj|solutionrelative:webapi\\webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 11,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProjectQuery.cs",
+              "DocumentMoniker": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\Infrastructure\\Querys\\ProjectQuery.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Querys\\ProjectQuery.cs",
+              "ToolTip": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\Infrastructure\\Querys\\ProjectQuery.cs",
+              "RelativeToolTip": "Infrastructure\\Querys\\ProjectQuery.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAcwFIAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T23:25:36.824Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IProjectServices.cs",
+              "DocumentMoniker": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\Application\\Interfaces\\Project\\IProjectServices.cs",
+              "RelativeDocumentMoniker": "Application\\Interfaces\\Project\\IProjectServices.cs",
+              "ToolTip": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\Application\\Interfaces\\Project\\IProjectServices.cs",
+              "RelativeToolTip": "Application\\Interfaces\\Project\\IProjectServices.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABYAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T01:39:47.135Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProjectServices.cs",
+              "DocumentMoniker": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\Application\\UseCase\\ProjectServices.cs",
+              "RelativeDocumentMoniker": "Application\\UseCase\\ProjectServices.cs",
+              "ToolTip": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\Application\\UseCase\\ProjectServices.cs",
+              "RelativeToolTip": "Application\\UseCase\\ProjectServices.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAgwH4AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-06T20:00:17.565Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProjectsController.cs",
+              "DocumentMoniker": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\WebApi\\Controllers\\ProjectsController.cs",
+              "RelativeDocumentMoniker": "WebApi\\Controllers\\ProjectsController.cs",
+              "ToolTip": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\WebApi\\Controllers\\ProjectsController.cs",
+              "RelativeToolTip": "WebApi\\Controllers\\ProjectsController.cs",
+              "ViewState": "AgIAAKsAAAAAAAAAAAA4wHYAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T01:12:39.725Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DataContext.cs",
+              "DocumentMoniker": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\Infrastructure\\AppDbContext\\DataContext.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\AppDbContext\\DataContext.cs",
+              "ToolTip": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\Infrastructure\\AppDbContext\\DataContext.cs",
+              "RelativeToolTip": "Infrastructure\\AppDbContext\\DataContext.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAswC8AAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T17:34:05.612Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ClientRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\Application\\DTOs\\Requests\\ClientRequest.cs",
+              "RelativeDocumentMoniker": "Application\\DTOs\\Requests\\ClientRequest.cs",
+              "ToolTip": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\Application\\DTOs\\Requests\\ClientRequest.cs",
+              "RelativeToolTip": "Application\\DTOs\\Requests\\ClientRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T23:40:48.53Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TaskServices.cs",
+              "DocumentMoniker": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\Application\\UseCase\\TaskServices.cs",
+              "RelativeDocumentMoniker": "Application\\UseCase\\TaskServices.cs",
+              "ToolTip": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\Application\\UseCase\\TaskServices.cs",
+              "RelativeToolTip": "Application\\UseCase\\TaskServices.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAmwFkAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T01:11:08.974Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TaskStatusController.cs",
+              "DocumentMoniker": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\WebApi\\Controllers\\TaskStatusController.cs",
+              "RelativeDocumentMoniker": "WebApi\\Controllers\\TaskStatusController.cs",
+              "ToolTip": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\WebApi\\Controllers\\TaskStatusController.cs",
+              "RelativeToolTip": "WebApi\\Controllers\\TaskStatusController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T18:24:48.572Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\WebApi\\Program.cs",
+              "RelativeDocumentMoniker": "WebApi\\Program.cs",
+              "ToolTip": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\WebApi\\Program.cs",
+              "RelativeToolTip": "WebApi\\Program.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAGQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T01:38:52.479Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IProjectQuery.cs",
+              "DocumentMoniker": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\Application\\Interfaces\\Project\\IProjectQuery.cs",
+              "RelativeDocumentMoniker": "Application\\Interfaces\\Project\\IProjectQuery.cs",
+              "ToolTip": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\Application\\Interfaces\\Project\\IProjectQuery.cs",
+              "RelativeToolTip": "Application\\Interfaces\\Project\\IProjectQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T00:44:36.852Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "InteractionServices.cs",
+              "DocumentMoniker": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\Application\\UseCase\\InteractionServices.cs",
+              "RelativeDocumentMoniker": "Application\\UseCase\\InteractionServices.cs",
+              "ToolTip": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\Application\\UseCase\\InteractionServices.cs",
+              "RelativeToolTip": "Application\\UseCase\\InteractionServices.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAkwB0AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T01:54:05.814Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "InteractionTypeServices.cs",
+              "DocumentMoniker": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\Application\\UseCase\\InteractionTypeServices.cs",
+              "RelativeDocumentMoniker": "Application\\UseCase\\InteractionTypeServices.cs",
+              "ToolTip": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\Application\\UseCase\\InteractionTypeServices.cs",
+              "RelativeToolTip": "Application\\UseCase\\InteractionTypeServices.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAuwCAAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T17:52:14.952Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "InteractionRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\Application\\DTOs\\Requests\\InteractionRequest.cs",
+              "RelativeDocumentMoniker": "Application\\DTOs\\Requests\\InteractionRequest.cs",
+              "ToolTip": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\Application\\DTOs\\Requests\\InteractionRequest.cs",
+              "RelativeToolTip": "Application\\DTOs\\Requests\\InteractionRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T23:37:39.155Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "EmptyFieldException.cs",
+              "DocumentMoniker": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\Application\\Exceptions\\EmptyFieldException.cs",
+              "RelativeDocumentMoniker": "Application\\Exceptions\\EmptyFieldException.cs",
+              "ToolTip": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\Application\\Exceptions\\EmptyFieldException.cs",
+              "RelativeToolTip": "Application\\Exceptions\\EmptyFieldException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-08T02:26:56.585Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "InvalidInteractionTypeException.cs",
+              "DocumentMoniker": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\Application\\Exceptions\\InvalidInteractionTypeException.cs",
+              "RelativeDocumentMoniker": "Application\\Exceptions\\InvalidInteractionTypeException.cs",
+              "ToolTip": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\Application\\Exceptions\\InvalidInteractionTypeException.cs",
+              "RelativeToolTip": "Application\\Exceptions\\InvalidInteractionTypeException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T02:04:11.527Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "InvalidCampaignTypeException.cs",
+              "DocumentMoniker": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\Application\\Exceptions\\InvalidCampaignTypeException.cs",
+              "RelativeDocumentMoniker": "Application\\Exceptions\\InvalidCampaignTypeException.cs",
+              "ToolTip": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\Application\\Exceptions\\InvalidCampaignTypeException.cs",
+              "RelativeToolTip": "Application\\Exceptions\\InvalidCampaignTypeException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-06T19:59:06.166Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Clients.cs",
+              "DocumentMoniker": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\Domain\\Entities\\Clients.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Clients.cs",
+              "ToolTip": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\Domain\\Entities\\Clients.cs",
+              "RelativeToolTip": "Domain\\Entities\\Clients.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T03:15:17.804Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "UserQuery.cs",
+              "DocumentMoniker": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\Infrastructure\\Querys\\UserQuery.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Querys\\UserQuery.cs",
+              "ToolTip": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\Infrastructure\\Querys\\UserQuery.cs",
+              "RelativeToolTip": "Infrastructure\\Querys\\UserQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T01:52:05.979Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "InvalidDateTimeException.cs",
+              "DocumentMoniker": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\Application\\Exceptions\\InvalidDateTimeException.cs",
+              "RelativeDocumentMoniker": "Application\\Exceptions\\InvalidDateTimeException.cs",
+              "ToolTip": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\Application\\Exceptions\\InvalidDateTimeException.cs",
+              "RelativeToolTip": "Application\\Exceptions\\InvalidDateTimeException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T03:17:50.136Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "InvalidClientException.cs",
+              "DocumentMoniker": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\Application\\Exceptions\\InvalidClientException.cs",
+              "RelativeDocumentMoniker": "Application\\Exceptions\\InvalidClientException.cs",
+              "ToolTip": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\Application\\Exceptions\\InvalidClientException.cs",
+              "RelativeToolTip": "Application\\Exceptions\\InvalidClientException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-06T19:54:44.373Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "GenericResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\Application\\DTOs\\Response\\GenericResponse.cs",
+              "RelativeDocumentMoniker": "Application\\DTOs\\Response\\GenericResponse.cs",
+              "ToolTip": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\Application\\DTOs\\Response\\GenericResponse.cs",
+              "RelativeToolTip": "Application\\DTOs\\Response\\GenericResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-01T23:02:00.898Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ProjectRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\Application\\DTOs\\Requests\\ProjectRequest.cs",
+              "RelativeDocumentMoniker": "Application\\DTOs\\Requests\\ProjectRequest.cs",
+              "ToolTip": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\Application\\DTOs\\Requests\\ProjectRequest.cs",
+              "RelativeToolTip": "Application\\DTOs\\Requests\\ProjectRequest.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T23:38:32.404Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "TaskRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\Application\\DTOs\\Requests\\TaskRequest.cs",
+              "RelativeDocumentMoniker": "Application\\DTOs\\Requests\\TaskRequest.cs",
+              "ToolTip": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\Application\\DTOs\\Requests\\TaskRequest.cs",
+              "RelativeToolTip": "Application\\DTOs\\Requests\\TaskRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T23:40:39.708Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "TaskResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\Application\\DTOs\\Response\\TaskResponse.cs",
+              "RelativeDocumentMoniker": "Application\\DTOs\\Response\\TaskResponse.cs",
+              "ToolTip": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\Application\\DTOs\\Response\\TaskResponse.cs",
+              "RelativeToolTip": "Application\\DTOs\\Response\\TaskResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T23:41:02.63Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ClientResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\Application\\DTOs\\Response\\ClientResponse.cs",
+              "RelativeDocumentMoniker": "Application\\DTOs\\Response\\ClientResponse.cs",
+              "ToolTip": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\Application\\DTOs\\Response\\ClientResponse.cs",
+              "RelativeToolTip": "Application\\DTOs\\Response\\ClientResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T01:12:07.998Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ProjectDetails.cs",
+              "DocumentMoniker": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\Application\\DTOs\\Response\\ProjectDetails.cs",
+              "RelativeDocumentMoniker": "Application\\DTOs\\Response\\ProjectDetails.cs",
+              "ToolTip": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\Application\\DTOs\\Response\\ProjectDetails.cs",
+              "RelativeToolTip": "Application\\DTOs\\Response\\ProjectDetails.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-01T22:55:14.399Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "InteractionResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\Application\\DTOs\\Response\\InteractionResponse.cs",
+              "RelativeDocumentMoniker": "Application\\DTOs\\Response\\InteractionResponse.cs",
+              "ToolTip": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\Application\\DTOs\\Response\\InteractionResponse.cs",
+              "RelativeToolTip": "Application\\DTOs\\Response\\InteractionResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T23:40:12.393Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ProjectResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\Application\\DTOs\\Response\\ProjectResponse.cs",
+              "RelativeDocumentMoniker": "Application\\DTOs\\Response\\ProjectResponse.cs",
+              "ToolTip": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\Application\\DTOs\\Response\\ProjectResponse.cs",
+              "RelativeToolTip": "Application\\DTOs\\Response\\ProjectResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBYAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T01:20:18.381Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ProjectCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\Infrastructure\\Commands\\ProjectCommand.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Commands\\ProjectCommand.cs",
+              "ToolTip": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\Infrastructure\\Commands\\ProjectCommand.cs",
+              "RelativeToolTip": "Infrastructure\\Commands\\ProjectCommand.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAewBgAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T01:11:52.468Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "AutoMapping.cs",
+              "DocumentMoniker": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\Application\\Mappers\\AutoMapping.cs",
+              "RelativeDocumentMoniker": "Application\\Mappers\\AutoMapping.cs",
+              "ToolTip": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\Application\\Mappers\\AutoMapping.cs",
+              "RelativeToolTip": "Application\\Mappers\\AutoMapping.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAcwDAAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T01:01:06.148Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "UserReponse.cs",
+              "DocumentMoniker": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\Application\\DTOs\\Response\\UserReponse.cs",
+              "RelativeDocumentMoniker": "Application\\DTOs\\Response\\UserReponse.cs",
+              "ToolTip": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\Application\\DTOs\\Response\\UserReponse.cs",
+              "RelativeToolTip": "Application\\DTOs\\Response\\UserReponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T17:26:48.263Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "InteractionTypesController.cs",
+              "DocumentMoniker": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\WebApi\\Controllers\\InteractionTypesController.cs",
+              "RelativeDocumentMoniker": "WebApi\\Controllers\\InteractionTypesController.cs",
+              "ToolTip": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\WebApi\\Controllers\\InteractionTypesController.cs",
+              "RelativeToolTip": "WebApi\\Controllers\\InteractionTypesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T18:27:40.504Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "IProjectCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\Application\\Interfaces\\Project\\IProjectCommand.cs",
+              "RelativeDocumentMoniker": "Application\\Interfaces\\Project\\IProjectCommand.cs",
+              "ToolTip": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\Application\\Interfaces\\Project\\IProjectCommand.cs",
+              "RelativeToolTip": "Application\\Interfaces\\Project\\IProjectCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T00:44:44.736Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "ClientsController.cs",
+              "DocumentMoniker": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\WebApi\\Controllers\\ClientsController.cs",
+              "RelativeDocumentMoniker": "WebApi\\Controllers\\ClientsController.cs",
+              "ToolTip": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\WebApi\\Controllers\\ClientsController.cs",
+              "RelativeToolTip": "WebApi\\Controllers\\ClientsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T18:52:08.704Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Projects.cs",
+              "DocumentMoniker": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\Domain\\Entities\\Projects.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Projects.cs",
+              "ToolTip": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\Domain\\Entities\\Projects.cs",
+              "RelativeToolTip": "Domain\\Entities\\Projects.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAmwCQAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T01:49:49.033Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "NegativeNumberException.cs",
+              "DocumentMoniker": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\Application\\Exceptions\\NegativeNumberException.cs",
+              "RelativeDocumentMoniker": "Application\\Exceptions\\NegativeNumberException.cs",
+              "ToolTip": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\Application\\Exceptions\\NegativeNumberException.cs",
+              "RelativeToolTip": "Application\\Exceptions\\NegativeNumberException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T01:11:32.075Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Tasks.cs",
+              "DocumentMoniker": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\Domain\\Entities\\Tasks.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Tasks.cs",
+              "ToolTip": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\Domain\\Entities\\Tasks.cs",
+              "RelativeToolTip": "Domain\\Entities\\Tasks.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB8AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T23:43:54.867Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "CampaignTypeServices.cs",
+              "DocumentMoniker": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\Application\\UseCase\\CampaignTypeServices.cs",
+              "RelativeDocumentMoniker": "Application\\UseCase\\CampaignTypeServices.cs",
+              "ToolTip": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\Application\\UseCase\\CampaignTypeServices.cs",
+              "RelativeToolTip": "Application\\UseCase\\CampaignTypeServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T17:53:28.05Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "CampaignTypes.cs",
+              "DocumentMoniker": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\Domain\\Entities\\CampaignTypes.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\CampaignTypes.cs",
+              "ToolTip": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\Domain\\Entities\\CampaignTypes.cs",
+              "RelativeToolTip": "Domain\\Entities\\CampaignTypes.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T03:06:11.085Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "ClientServices.cs",
+              "DocumentMoniker": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\Application\\UseCase\\ClientServices.cs",
+              "RelativeDocumentMoniker": "Application\\UseCase\\ClientServices.cs",
+              "ToolTip": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\Application\\UseCase\\ClientServices.cs",
+              "RelativeToolTip": "Application\\UseCase\\ClientServices.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAawE4AAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T01:11:10.372Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "IInteractionService.cs",
+              "DocumentMoniker": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\Application\\Interfaces\\Interaction\\IInteractionService.cs",
+              "RelativeDocumentMoniker": "Application\\Interfaces\\Interaction\\IInteractionService.cs",
+              "ToolTip": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\Application\\Interfaces\\Interaction\\IInteractionService.cs",
+              "RelativeToolTip": "Application\\Interfaces\\Interaction\\IInteractionService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T23:52:28.324Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "TaskStatusServices.cs",
+              "DocumentMoniker": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\Application\\UseCase\\TaskStatusServices.cs",
+              "RelativeDocumentMoniker": "Application\\UseCase\\TaskStatusServices.cs",
+              "ToolTip": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\Application\\UseCase\\TaskStatusServices.cs",
+              "RelativeToolTip": "Application\\UseCase\\TaskStatusServices.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAEwCAAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T01:47:12.584Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "TaskQuery.cs",
+              "DocumentMoniker": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\Infrastructure\\Querys\\TaskQuery.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Querys\\TaskQuery.cs",
+              "ToolTip": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\Infrastructure\\Querys\\TaskQuery.cs",
+              "RelativeToolTip": "Infrastructure\\Querys\\TaskQuery.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAqwCEAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T01:56:14.248Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "ITaskService.cs",
+              "DocumentMoniker": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\Application\\Interfaces\\Tasks\\ITaskService.cs",
+              "RelativeDocumentMoniker": "Application\\Interfaces\\Tasks\\ITaskService.cs",
+              "ToolTip": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\Application\\Interfaces\\Tasks\\ITaskService.cs",
+              "RelativeToolTip": "Application\\Interfaces\\Tasks\\ITaskService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T00:37:17.433Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "ITaskQuery.cs",
+              "DocumentMoniker": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\Application\\Interfaces\\Tasks\\ITaskQuery.cs",
+              "RelativeDocumentMoniker": "Application\\Interfaces\\Tasks\\ITaskQuery.cs",
+              "ToolTip": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\Application\\Interfaces\\Tasks\\ITaskQuery.cs",
+              "RelativeToolTip": "Application\\Interfaces\\Tasks\\ITaskQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T23:42:42.253Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "InvalidTaskException.cs",
+              "DocumentMoniker": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\Application\\Exceptions\\InvalidTaskException.cs",
+              "RelativeDocumentMoniker": "Application\\Exceptions\\InvalidTaskException.cs",
+              "ToolTip": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\Application\\Exceptions\\InvalidTaskException.cs",
+              "RelativeToolTip": "Application\\Exceptions\\InvalidTaskException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T00:52:26.653Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "InvalidProjectException.cs",
+              "DocumentMoniker": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\Application\\Exceptions\\InvalidProjectException.cs",
+              "RelativeDocumentMoniker": "Application\\Exceptions\\InvalidProjectException.cs",
+              "ToolTip": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\Application\\Exceptions\\InvalidProjectException.cs",
+              "RelativeToolTip": "Application\\Exceptions\\InvalidProjectException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T00:46:15.577Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "InvalidStatusException.cs",
+              "DocumentMoniker": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\Application\\Exceptions\\InvalidStatusException.cs",
+              "RelativeDocumentMoniker": "Application\\Exceptions\\InvalidStatusException.cs",
+              "ToolTip": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\Application\\Exceptions\\InvalidStatusException.cs",
+              "RelativeToolTip": "Application\\Exceptions\\InvalidStatusException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T02:01:59.123Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "InvalidUserException.cs",
+              "DocumentMoniker": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\Application\\Exceptions\\InvalidUserException.cs",
+              "RelativeDocumentMoniker": "Application\\Exceptions\\InvalidUserException.cs",
+              "ToolTip": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\Application\\Exceptions\\InvalidUserException.cs",
+              "RelativeToolTip": "Application\\Exceptions\\InvalidUserException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T01:58:52.619Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "SameNameProjectException.cs",
+              "DocumentMoniker": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\Application\\Exceptions\\SameNameProjectException.cs",
+              "RelativeDocumentMoniker": "Application\\Exceptions\\SameNameProjectException.cs",
+              "ToolTip": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\Application\\Exceptions\\SameNameProjectException.cs",
+              "RelativeToolTip": "Application\\Exceptions\\SameNameProjectException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T02:00:31.589Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "IClientQuery.cs",
+              "DocumentMoniker": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\Application\\Interfaces\\Client\\IClientQuery.cs",
+              "RelativeDocumentMoniker": "Application\\Interfaces\\Client\\IClientQuery.cs",
+              "ToolTip": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\Application\\Interfaces\\Client\\IClientQuery.cs",
+              "RelativeToolTip": "Application\\Interfaces\\Client\\IClientQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T18:07:57.144Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "TaskStatusQuery.cs",
+              "DocumentMoniker": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\Infrastructure\\Querys\\TaskStatusQuery.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Querys\\TaskStatusQuery.cs",
+              "ToolTip": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\Infrastructure\\Querys\\TaskStatusQuery.cs",
+              "RelativeToolTip": "Infrastructure\\Querys\\TaskStatusQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAwAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T01:46:27.732Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "IClientService.cs",
+              "DocumentMoniker": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\Application\\Interfaces\\Client\\IClientService.cs",
+              "RelativeDocumentMoniker": "Application\\Interfaces\\Client\\IClientService.cs",
+              "ToolTip": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\Application\\Interfaces\\Client\\IClientService.cs",
+              "RelativeToolTip": "Application\\Interfaces\\Client\\IClientService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T00:39:43.431Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "IInteractionQuery.cs",
+              "DocumentMoniker": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\Application\\Interfaces\\Interaction\\IInteractionQuery.cs",
+              "RelativeDocumentMoniker": "Application\\Interfaces\\Interaction\\IInteractionQuery.cs",
+              "ToolTip": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\Application\\Interfaces\\Interaction\\IInteractionQuery.cs",
+              "RelativeToolTip": "Application\\Interfaces\\Interaction\\IInteractionQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T23:56:54.763Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "IInteractionCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\Application\\Interfaces\\Interaction\\IInteractionCommand.cs",
+              "RelativeDocumentMoniker": "Application\\Interfaces\\Interaction\\IInteractionCommand.cs",
+              "ToolTip": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\Application\\Interfaces\\Interaction\\IInteractionCommand.cs",
+              "RelativeToolTip": "Application\\Interfaces\\Interaction\\IInteractionCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T23:52:49.054Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "IClientCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\Application\\Interfaces\\Client\\IClientCommand.cs",
+              "RelativeDocumentMoniker": "Application\\Interfaces\\Client\\IClientCommand.cs",
+              "ToolTip": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\Application\\Interfaces\\Client\\IClientCommand.cs",
+              "RelativeToolTip": "Application\\Interfaces\\Client\\IClientCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T23:55:35.869Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "ICampaignTypeQuery.cs",
+              "DocumentMoniker": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\Application\\Interfaces\\CampaignType\\ICampaignTypeQuery.cs",
+              "RelativeDocumentMoniker": "Application\\Interfaces\\CampaignType\\ICampaignTypeQuery.cs",
+              "ToolTip": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\Application\\Interfaces\\CampaignType\\ICampaignTypeQuery.cs",
+              "RelativeToolTip": "Application\\Interfaces\\CampaignType\\ICampaignTypeQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T18:03:49.881Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\Application\\Interfaces\\User\\IUserService.cs",
+              "RelativeDocumentMoniker": "Application\\Interfaces\\User\\IUserService.cs",
+              "ToolTip": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\Application\\Interfaces\\User\\IUserService.cs",
+              "RelativeToolTip": "Application\\Interfaces\\User\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T17:54:31.398Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "IInteractionTypeService.cs",
+              "DocumentMoniker": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\Application\\Interfaces\\InteractionType\\IInteractionTypeService.cs",
+              "RelativeDocumentMoniker": "Application\\Interfaces\\InteractionType\\IInteractionTypeService.cs",
+              "ToolTip": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\Application\\Interfaces\\InteractionType\\IInteractionTypeService.cs",
+              "RelativeToolTip": "Application\\Interfaces\\InteractionType\\IInteractionTypeService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T17:58:09.229Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "InteractionQuery.cs",
+              "DocumentMoniker": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\Infrastructure\\Querys\\InteractionQuery.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Querys\\InteractionQuery.cs",
+              "ToolTip": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\Infrastructure\\Querys\\InteractionQuery.cs",
+              "RelativeToolTip": "Infrastructure\\Querys\\InteractionQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T23:57:35.526Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "InteractionTypeQuery.cs",
+              "DocumentMoniker": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\Infrastructure\\Querys\\InteractionTypeQuery.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Querys\\InteractionTypeQuery.cs",
+              "ToolTip": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\Infrastructure\\Querys\\InteractionTypeQuery.cs",
+              "RelativeToolTip": "Infrastructure\\Querys\\InteractionTypeQuery.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAwwB4AAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T01:55:51.706Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "IInteractionTypeQuery.cs",
+              "DocumentMoniker": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\Application\\Interfaces\\InteractionType\\IInteractionTypeQuery.cs",
+              "RelativeDocumentMoniker": "Application\\Interfaces\\InteractionType\\IInteractionTypeQuery.cs",
+              "ToolTip": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\Application\\Interfaces\\InteractionType\\IInteractionTypeQuery.cs",
+              "RelativeToolTip": "Application\\Interfaces\\InteractionType\\IInteractionTypeQuery.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T18:05:09.363Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "TaskCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\Infrastructure\\Commands\\TaskCommand.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Commands\\TaskCommand.cs",
+              "ToolTip": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\Infrastructure\\Commands\\TaskCommand.cs",
+              "RelativeToolTip": "Infrastructure\\Commands\\TaskCommand.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAnwBQAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T00:45:16.637Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "InteractionCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\Infrastructure\\Commands\\InteractionCommand.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Commands\\InteractionCommand.cs",
+              "ToolTip": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\Infrastructure\\Commands\\InteractionCommand.cs",
+              "RelativeToolTip": "Infrastructure\\Commands\\InteractionCommand.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAnwBQAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T23:57:51.737Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "ClientQuery.cs",
+              "DocumentMoniker": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\Infrastructure\\Querys\\ClientQuery.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Querys\\ClientQuery.cs",
+              "ToolTip": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\Infrastructure\\Querys\\ClientQuery.cs",
+              "RelativeToolTip": "Infrastructure\\Querys\\ClientQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T01:09:11.852Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "CampaignTypeQuery.cs",
+              "DocumentMoniker": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\Infrastructure\\Querys\\CampaignTypeQuery.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Querys\\CampaignTypeQuery.cs",
+              "ToolTip": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\Infrastructure\\Querys\\CampaignTypeQuery.cs",
+              "RelativeToolTip": "Infrastructure\\Querys\\CampaignTypeQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T01:35:34.124Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "ClientCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\Infrastructure\\Commands\\ClientCommand.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Commands\\ClientCommand.cs",
+              "ToolTip": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\Infrastructure\\Commands\\ClientCommand.cs",
+              "RelativeToolTip": "Infrastructure\\Commands\\ClientCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T00:55:43.397Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "ITaskCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\Application\\Interfaces\\Tasks\\ITaskCommand.cs",
+              "RelativeDocumentMoniker": "Application\\Interfaces\\Tasks\\ITaskCommand.cs",
+              "ToolTip": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\Application\\Interfaces\\Tasks\\ITaskCommand.cs",
+              "RelativeToolTip": "Application\\Interfaces\\Tasks\\ITaskCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T00:37:16.613Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "ITaskStatusQuery.cs",
+              "DocumentMoniker": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\Application\\Interfaces\\TaskStatus\\ITaskStatusQuery.cs",
+              "RelativeDocumentMoniker": "Application\\Interfaces\\TaskStatus\\ITaskStatusQuery.cs",
+              "ToolTip": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\Application\\Interfaces\\TaskStatus\\ITaskStatusQuery.cs",
+              "RelativeToolTip": "Application\\Interfaces\\TaskStatus\\ITaskStatusQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T18:02:45.892Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "ITaskStatusService.cs",
+              "DocumentMoniker": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\Application\\Interfaces\\TaskStatus\\ITaskStatusService.cs",
+              "RelativeDocumentMoniker": "Application\\Interfaces\\TaskStatus\\ITaskStatusService.cs",
+              "ToolTip": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\Application\\Interfaces\\TaskStatus\\ITaskStatusService.cs",
+              "RelativeToolTip": "Application\\Interfaces\\TaskStatus\\ITaskStatusService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T17:56:45.732Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "IUserQuery.cs",
+              "DocumentMoniker": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\Application\\Interfaces\\User\\IUserQuery.cs",
+              "RelativeDocumentMoniker": "Application\\Interfaces\\User\\IUserQuery.cs",
+              "ToolTip": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\Application\\Interfaces\\User\\IUserQuery.cs",
+              "RelativeToolTip": "Application\\Interfaces\\User\\IUserQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T18:00:58.658Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\WebApi\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "WebApi\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\WebApi\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "WebApi\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T18:22:15.218Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "CampaignTypesController.cs",
+              "DocumentMoniker": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\WebApi\\Controllers\\CampaignTypesController.cs",
+              "RelativeDocumentMoniker": "WebApi\\Controllers\\CampaignTypesController.cs",
+              "ToolTip": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\WebApi\\Controllers\\CampaignTypesController.cs",
+              "RelativeToolTip": "WebApi\\Controllers\\CampaignTypesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T18:26:25.365Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "ICampaignTypeService.cs",
+              "DocumentMoniker": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\Application\\Interfaces\\CampaignType\\ICampaignTypeService.cs",
+              "RelativeDocumentMoniker": "Application\\Interfaces\\CampaignType\\ICampaignTypeService.cs",
+              "ToolTip": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\Application\\Interfaces\\CampaignType\\ICampaignTypeService.cs",
+              "RelativeToolTip": "Application\\Interfaces\\CampaignType\\ICampaignTypeService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T17:57:27.129Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "ApiError.cs",
+              "DocumentMoniker": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\Application\\DTOs\\Response\\ApiError.cs",
+              "RelativeDocumentMoniker": "Application\\DTOs\\Response\\ApiError.cs",
+              "ToolTip": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\Application\\DTOs\\Response\\ApiError.cs",
+              "RelativeToolTip": "Application\\DTOs\\Response\\ApiError.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T22:39:45.374Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "TaskStatus.cs",
+              "DocumentMoniker": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\Domain\\Entities\\TaskStatus.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\TaskStatus.cs",
+              "ToolTip": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\Domain\\Entities\\TaskStatus.cs",
+              "RelativeToolTip": "Domain\\Entities\\TaskStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T02:27:16.266Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "Users.cs",
+              "DocumentMoniker": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\Domain\\Entities\\Users.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Users.cs",
+              "ToolTip": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\Domain\\Entities\\Users.cs",
+              "RelativeToolTip": "Domain\\Entities\\Users.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T02:27:17.635Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "InteractionTypes.cs",
+              "DocumentMoniker": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\Domain\\Entities\\InteractionTypes.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\InteractionTypes.cs",
+              "ToolTip": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\Domain\\Entities\\InteractionTypes.cs",
+              "RelativeToolTip": "Domain\\Entities\\InteractionTypes.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T02:26:41.451Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "Interactions.cs",
+              "DocumentMoniker": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\Domain\\Entities\\Interactions.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Interactions.cs",
+              "ToolTip": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\Domain\\Entities\\Interactions.cs",
+              "RelativeToolTip": "Domain\\Entities\\Interactions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T23:37:57.842Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "UserServices.cs",
+              "DocumentMoniker": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\Application\\UseCase\\UserServices.cs",
+              "RelativeDocumentMoniker": "Application\\UseCase\\UserServices.cs",
+              "ToolTip": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\Application\\UseCase\\UserServices.cs",
+              "RelativeToolTip": "Application\\UseCase\\UserServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T01:52:42.426Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 80,
+              "Title": "Application.csproj",
+              "DocumentMoniker": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\Application\\Application.csproj",
+              "RelativeDocumentMoniker": "Application\\Application.csproj",
+              "ToolTip": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\Application\\Application.csproj",
+              "RelativeToolTip": "Application\\Application.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-06T19:53:27.283Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 81,
+              "Title": "WebApi.csproj",
+              "DocumentMoniker": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\WebApi\\WebApi.csproj",
+              "RelativeDocumentMoniker": "WebApi\\WebApi.csproj",
+              "ToolTip": "C:\\Users\\Franco\\source\\repos\\BackendCRM\\WebApi\\WebApi.csproj",
+              "RelativeToolTip": "WebApi\\WebApi.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-29T23:13:55.565Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

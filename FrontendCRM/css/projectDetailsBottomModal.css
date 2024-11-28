@@ -1,0 +1,174 @@
+.modal-tables-container{
+    margin-top: 20px;
+ }
+ 
+ 
+ 
+ .task-interaction-table{
+     display: flex;
+     flex-direction: column;
+     gap: 20px;
+ }
+ 
+ .table-wrapper{
+     width: 100%;
+     max-width: 800px;
+     border: none;
+     margin-top: 15px;
+ }
+ 
+ .table-wrapper h3{
+     font-size: 16px;
+     color: #333;
+     border-bottom: 2px solid #007BFF;
+     text-transform: uppercase;
+ 
+ }
+ 
+ #taskTable, #interactionTable{
+     width: 100%;
+     table-layout: fixed;  
+     border-collapse: collapse;
+     max-width: 1000px;
+     margin-top: 15px;
+     letter-spacing: 1px;
+     font-weight: bold;
+     text-transform: uppercase;
+     transition: color 0.3s;
+     
+ }
+ 
+ #taskTable th, td{
+     padding: 4px 15px;    
+     border: none;  
+     text-align: center;
+     font-size: 16px;   
+ }
+ 
+ #taskTableBody td{
+     padding: 12px 15px;
+     max-width: 150px;
+     overflow: hidden;
+     text-overflow: ellipsis;
+     white-space: nowrap;
+     text-align: center;
+ }
+ 
+ 
+ #interactionTable th, td{
+     padding: 4px 15px;    
+     border: none;  
+     text-align: center;
+     font-size: 16px;
+ }
+ 
+ #interactionTableBody td{
+     padding: 12px 15px;
+     max-width: 150px;
+     overflow: hidden;
+     text-overflow: ellipsis;
+     white-space: nowrap;
+     text-align: center;
+ }
+ 
+ .table-body-scroll {
+     max-height: 100px;
+     overflow-y: auto;
+     scrollbar-width: none;
+     margin-top: 10px;
+ 
+ }
+ 
+ .table-body-scroll table{
+     width: 100%;
+     border-collapse: collapse;
+ }
+ 
+ #taskTableBody, #interactionTableBody{
+     width: 100%;
+     table-layout: fixed;
+ 
+ }
+ 
+ #taskTableBody tbody tr{
+     background-color: #ffffff;
+     border-bottom: 2px solid #f1f1f1;
+     width: 100%;
+ }
+ 
+ #interactionTableBody tbody tr{
+     background-color: #ffffff;
+     border-bottom: 2px solid #f1f1f1;
+     width: 100%;
+ }
+ 
+ #interactionTableBody tbody tr:hover{
+     background-color: #f1f1f1;
+ }
+ 
+ 
+ #taskTableBody tbody tr:hover {
+     background-color: #f1f1f1;
+ }
+ 
+ #taskTable th{
+     background: #00509E;
+     color: white;
+ }
+ 
+ #interactionTable th{
+     background: #00509E;
+     color: white;
+ }
+ 
+ .edit-task{
+     background-color: transparent; 
+     color: #000000; 
+     border: none; 
+     cursor: pointer;
+     transition: color 0.3s;
+ }
+ 
+ 
+ 
+ .add-task, .add-interaction{
+     margin-left: auto;
+     display: flex;
+     font-family: 'Poppins', sans-serif;
+     font-size: 14px;
+     letter-spacing: 1px;
+     justify-content: center;
+     text-transform: uppercase;
+     align-items: center;
+     padding: 10px 20px;   
+     color: white;
+     padding: 10px 20px;
+     border: none;
+     border-radius: 5px;
+     cursor: pointer;
+     transition: box-shadow 0.3s ease, transform 0.3s ease;
+     background-color: #00509E;
+     box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.2);
+     height: 38px;
+     
+ }
+ 
+ .project-details-modal-footer{
+     margin-bottom: 20px;
+     background-color: white;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     margin-top: 20px;
+ }
+ 
+ .interaction-button{
+     margin-left: 10px
+ }
+ 
+ .add-task:hover, .add-interaction:hover{
+     background-color: #003366;
+     box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+     transform: translateY(-2px);
+ }
+ 

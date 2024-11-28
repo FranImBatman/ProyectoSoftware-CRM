@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MarketingCRM</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <link rel="stylesheet" href="/css/mainScreen.css">
+    <link rel="stylesheet" href="/css/formsValidate.css">
+    <link rel="stylesheet" href="/css/projectAddModal.css">
+    <link rel="stylesheet" href="/css/projectDetailsTopModal.css">
+    <link rel="stylesheet" href="/css/projectDetailsBottomModal.css">
+    <link rel="stylesheet" href="/css/addTaskInteractionModal.css">
+    <link rel="stylesheet" href="/css/loadEffects.css">
+    
+</head>
+<body>
+
+     <!-- Header con barra de navegación -->
+     <header>
+        <h1>
+            <img src="images/crm.png" alt="" class="header-icon">
+            Marketing CRM
+        </h1>
+    </header>
+
+ 
+    <div class="content">
+        <h2>Proyectos</h2>
+
+        <div class="projects-interface">
+            
+           
+            
+            <div class="top-section-project-table">
+                
+                <div class="search-container">
+                    <div class="search-bar">
+                        <input type="text" id="search-input" placeholder="Buscar proyectos..." />
+                    </div>  
+                    <button id="search-btn">
+                        <i class="fas fa-search"></i>
+                    </button>            
+                </div>
+                <div class="filters-container">
+                    <div class="filter-bar-campaign">
+                        
+        
+                        <select id="filter-campaign-type-select">
+                            <option value="">Filtrar camapaña...</option>                       
+                        </select>            
+                    </div>
+                    <div class="filter-bar-client">
+                        
+                        <select id="filter-client-select">
+                            <option value="">Filtrar cliente...</option>
+                        </select>
+                                   
+                    </div>                                 
+                </div>
+
+                <button class="add-project">
+                    Agregar Proyecto
+                    <i class="fa-solid fa-circle-plus"></i>
+                </button>
+            </div>
+    
+            <!-- Tabla de proyectos -->
+            <table id="project-table" class="project-table">
+                <thead>
+                    <tr>                       
+                        <th>Nombre</th>                                    
+                        <th>Cliente</th> 
+                        <th>Campaña</th>     
+                        <th>Inicio</th>
+                        <th>Finalización</th>                      
+                        <th>Acciones</th>
+                    </tr>
+                </thead>
+                <tbody id="projects">
+                    <!-- Las filas de proyectos se cargarán aquí -->
+                </tbody>
+            </table>
+
+            
+
+            <div id="overlay" class="overlay"></div>
+            <div class="mid-overlay" id="mid-overlay"></div>
+            <div class="overlay-load" id="overlay-load"></div>
+            
+            <div class="add-project-window" id="project-window">
+                <div class="project-window-content">
+                    <span class="close">&times;</span>
+                    <h2>Cargar proyecto</h2>
+                    <form id="dataProject">
+                        <div class="form-group" id="project-name-group">
+                            <label for="projectName" class="form-label">Nombre del proyecto:</label>
+                            <div class="form-input">
+                                <input type="text" id="create-project-name" name="create-project-name">
+                            </div>      
+                            <p class="form-input-error form-input-error-inactive">Debe ingresar un nombre para el proyecto.</p>
+                        </div>
+                                                
+                        <div class="form-group" id="project-start-date-group">
+                            <label for="startDate" class="form-label">Fecha de incio:</label>
+                            <div class="form-input">
+                                <input type="date" id="create-project-start-date" name="create-project-start-date">
+                            </div>
+                            <p class="form-input-error form-input-error-inactive">Por favor, ingrese una fecha de inicio.</p>                                
+                        </div>
+
+                        <div class="form-group" id="project-end-date-group">
+                            <label for="endDate" class="form-label">Fecha de Finalización:</label>
+                            <div class="form-input">
+                                <input type="date" id="create-project-end-date" name="create-project-end-date">
+                            </div>
+                            <p class="form-input-error form-input-error-inactive">Por favor, ingrese una fecha de finalizacion.</p>                                
+                        </div>
+
+                        <div class="form-group" id="project-client-group">
+                            <label for="client" class="form-label">Cliente:</label>
+                            <div class="form-input">
+                                <select name="create-project-client-select" id="create-project-client-select">
+                                    <option value="">Seleccionar</option>
+                                </select>
+                            </div>
+                            <p class="form-input-error form-input-error-inactive">Por favor, seleccione un cliente.</p>
+                        </div>                                     
+
+                        
+                        <div class="form-group" id="project-campaign-type-group">
+                            <label for="campaignType" class="form-label">Tipo de campaña:</label>
+                            <div class="form-input">
+                                <select name="create-project-campaign-select" id="create-project-campaign-select">
+                                    <option value="">Seleccionar</option>
+                                </select>
+                            </div>
+                            <p class="form-input-error form-input-error-inactive" >Por favor, seleccione un tipo de campaña.</p>
+                        </div>         
+                        <button type="submit" class="submit-button">Agregar proyecto</button>
+                        
+                    </form>
+                    <div class="loader-icon-project">
+                        <i class="fas fa-spinner fa-spin"></i>
+                    </div>                               
+                    <script type="module" src="./src/validators/projectFormValidator.js"></script>
+                </div>
+            </div>
+            
+
+           
+            
+            
+
+            <div class="project-details-modal" id="project-details-modal">
+                <div class="project-details-content" id="project-details-content">
+                    <span class="close-details-modal">&times;</span>                  
+                    <div class="project-title-container">
+                        <h2 id="project-name-title"></h2>
+                    </div>                    
+                    <div class="top-section-modal">
+                        <div class="project-details">
+                            <h3>Informacion del proyecto</h3>
+    
+                            <div class="info-row">
+                                <label for="projectCampaign">Campaña</label>
+                                <span class="input-like" id="project-campaign-type"></span>
+                            </div>
+                            <div class="info-row">
+                                <label for="startDateProject">Fecha de Inicio</label>
+                                <span class="input-like" id="project-start-date"></span>
+                            </div>
+                            <div class="info-row">
+                                <label for="endDateProject">Fecha de Finalización</label>
+                            <span class="input-like" id="project-end-date"></span>
+                            </div> 
+                            
+                        </div>
+
+                        <div class="separator"></div>
+
+                        <div class="project-client-details">
+                            <h3>Cliente</h3>
+
+                            <div class="info-row">
+                                <label for="clientName">Nombre</label>
+                                <span class="input-like" id="client-name"></span>
+                            </div>                           
+                            <div class="info-row">
+                                <label for="clientEmail">Email</label>
+                                <span class="input-like" id="client-email"></span>
+                            </div>
+                            <div class="info-row">
+                                <label for="clientPhone">Telefono</label>
+                                <span class="input-like" id="client-phone"></span>
+                            </div>
+                            <div class="info-row">
+                                <label for="clientCompany">Compañia</label>
+                                <span class="input-like" id="client-company"></span>
+                            </div>
+                            <div class="info-row">
+                                <label for="clientAddress">Direccion</label>
+                                <span class="input-like" id="client-address"></span>
+                            </div>                          
+                            
+                        </div>
+
+                    </div>
+                    
+                                                      
+                                             
+                    <div class="modal-tables-container">
+                        <div class="task-interaction-table">
+                            
+                            <div class="table-wrapper">
+                                <h3>Tareas</h3>
+                                <table id="taskTable">
+                                    <thead>
+                                        <tr>
+                                            <th>Nombre</th>
+                                            <th>Asignado a</th>
+                                            <th>Estado</th>
+                                            <th>Vencimiento</th>
+                                            <th>Editar</th>
+                                        </tr>
+                                    </thead>                                                           
+                                </table>
+                                <div class="table-body-scroll">
+                                    <table id="taskTableBody">
+                                        <tbody>
+
+                                        </tbody>
+                                    </table>
+                                </div>                       
+                            </div>
+                            
+                            
+                            <div class="table-wrapper">
+                                <h3>Interacciones</h3>
+                                <table id="interactionTable">
+                                    <thead>
+                                        <tr>
+                                            <th>Notas</th>
+                                            <th>Tipo</th>
+                                            <th>Fecha</th>
+                                        </tr>
+                                    </thead>                                   
+                                </table>
+                                <div class="table-body-scroll">
+                                    <table id="interactionTableBody">
+                                        <tbody>
+
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>   
+                        </div>
+    
+                    </div>
+                    
+                    <div class="project-details-modal-footer">
+                        <div class="task-button">
+                            <button class="add-task">Agregar Tarea</button>
+                        </div>
+                        <div class="interaction-button">
+                            <button class="add-interaction">Agregar Interaccion</button>
+                        </div>
+                    </div>                               
+                </div>               
+            </div>
+
+            <div class="add-task-modal" id="add-task-modal">
+                <div class="add-task-modal-content">
+                    <span class="close-add-task-modal">&times;</span>
+                    <h2 id="task-modal-button-title">Cargar tarea</h2>
+                    <form id="dataTask">
+                        <input type="hidden" id="data-task-id" value=""/>
+                        
+                        <div class="form-group" id="task-name-group">
+                            <label for="taskName" class="form-label">Nombre de la tarea:</label>
+                            <div class="form-input">
+                                <input type="text" id="create-task-name" name="create-task-name">
+                            </div>
+                            <p class="form-input-error form-input-error-inactive">La tarea debe tener un nombre.</p>                       
+                        </div>
+
+                        <div class="form-group" id="task-due-date-group">
+                            <label for="taskDueDate" class="form-label">Fecha de Vencimiento:</label>
+                            <div class="form-input">
+                                <input type="date" id="create-task-due-date" name="create-task-due-date">
+                            </div>
+                            <p class="form-input-error form-input-error-inactive">Por favor, ingrese una fecha de expiracion.</p>                       
+                        </div>
+
+                        <div class="form-group" id="task-user-group">
+                            <label for="taskUser" class="form-label">Usuario asignado:</label>
+                            <div class="form-input">
+                                <select name="create-task-user" id="create-task-user">
+                                    <option value="">Seleccionar</option>
+                                </select>
+                            </div>
+                            <p class="form-input-error form-input-error-inactive">Debe asignar un usuario a la tarea.</p>                       
+                        </div>
+
+                        <div class="form-group" id="task-status-group">
+                            <label for="taskStatus" class="form-label">Estado de la tarea</label>
+                            <div class="form-input">
+                                <select name="create-task-status" id="create-task-status">
+                                    <option value="">Seleccionar</option>
+                                </select>
+                            </div>
+                            <p class="form-input-error form-input-error-inactive">Debe asignar un estado a la tarea.</p>                       
+                        </div>
+                              
+                        <button type="submit" class="submit-button">Agregar tarea</button>
+                    </form>
+                    <div class="loader-icon-task">
+                        <i class="fas fa-spinner fa-spin"></i>
+                    </div>
+                    <script type="module" src="./src/validators/taskFormValidator.js"></script>
+                    
+                </div>
+            </div>
+
+            <div class="add-interaction-modal" id="add-interaction-modal">
+                <div class="add-interaction-modal-content">
+                    <span class="close-add-interaction-modal">&times;</span>
+                    <h2>Cargar interaccion</h2>
+                    <form id="dataInteraction">
+                        <div class="form-group" id="interaction-notes-group">
+                            <label for="interactionNotes" class="form-label">Notas:</label>
+                            <div class="form-input">
+                                <input type="text" id="create-interaction-notes" name="create-interaction-notes">
+                            </div>
+                            <p class="form-input-error form-input-error-inactive">El campo notas no puede estar vacio.</p>                       
+                        </div>
+
+                        <div class="form-group" id="interaction-date-group">
+                            <label for="interactionDate" class="form-label">Fecha:</label>
+                            <div class="form-input">
+                                <input type="date" id="create-interaction-date" name="create-interaction-date">
+                            </div>
+                            <p class="form-input-error form-input-error-inactive">Por favor, elija una fecha.</p>                       
+                        </div>
+
+                        <div class="form-group" id="interaction-type-group">
+                            <label for="interactionType" class="form-label">Tipo de interaccion:</label>
+                            <div class="form-input">
+                                <select name="create-interaction-type" id="create-interaction-type">
+                                    <option value="">Seleccionar</option>
+                                </select>
+                            </div>
+                            <p class="form-input-error form-input-error-inactive">Debe seleccionar un tipo de interaccion.</p>                       
+                        </div>
+
+                        
+
+                        <button type="submit" class="submit-button">Agregar interaccion</button>
+                    </form>                   
+                    <div class="loader-icon-interaction">
+                        <i class="fas fa-spinner fa-spin"></i>
+                    </div>
+                    <script type="module" src="./src/validators/interactionFormValidator.js"></script>
+                </div>
+            </div>
+           
+            <div class="success-create-alert">
+                <div class="success-alert-icon" id="success-alert-icon">
+                    <i class="fas fa-check-circle"></i>
+                    <div class="success-alert-text" id="success-alert-text">
+                        <span></span>
+                    </div>                          
+                </div>                        
+            </div>
+            <div class="error-create-alert">
+                <div class="error-alert-icon" id="error-alert-icon">
+                    <i class="fas fa-times-circle"></i>
+                    <div class="error-alert-text">
+                        <span></span>
+                    </div>                          
+                </div>                         
+            </div>
+            
+        </div>
+    </div>
+   
+
+    <script type="module" src="src/index.js"></script>
+
+    <footer class="footer">
+        <p>Franco Giordano © 2024 Todos los derechos reservados.</p>
+    </footer>
+    
+</body>
+</html>

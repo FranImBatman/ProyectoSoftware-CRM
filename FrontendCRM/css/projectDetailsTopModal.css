@@ -1,0 +1,139 @@
+.project-details-modal {
+    display: none; 
+    justify-content: center;
+    align-items: center; 
+    position: fixed;
+    transform: translate(-50%, -50%);
+    z-index: 250; 
+    left: 50%;
+    top: 50%;
+    width: 100%;
+    max-width: 800px;
+}
+
+.project-details-content{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-color: white;
+    margin: auto;
+    padding: 20px; /* Ajusta esto según lo que necesites */
+    border: 1px solid #888;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);  
+    transition: transform 0.5s ease-out, opacity 0.5s ease-out;
+    transform: translateY(30%);
+    opacity: 0;
+    width: 100%; /* Cambiado para que ocupe el ancho del contenedor */
+    max-height: 90%;
+    overflow-y: auto;
+    padding-bottom: 0; /* Mantén esto si no quieres padding extra abajo */
+}
+
+.project-details-modal.show .project-details-content{
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.project-details-modal.dim{
+    opacity: 1;
+    filter: blur(1px); 
+    pointer-events: none; 
+}
+
+.project-title-container {
+    margin: 5px auto;
+    padding: 10px;    
+    
+}
+
+#project-name-title{
+    font-size: 28px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 30px;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 600px;
+    white-space: nowrap;
+    display: inline-block;
+
+}
+
+.top-section-modal{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.info-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.separator{
+    width: 1px;
+    background-color: #ddd;
+    margin: 0 20px;
+    height: auto;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.project-details, .project-client-details{
+    flex: 1;
+    margin-right: 10px;
+    width: 48%;
+}
+
+.project-details, .project-client-details{
+    flex: 1;
+    margin-right: 10px;
+    width: 48%;
+}
+
+.project-client-details{
+    margin-right: 0;
+}
+
+.project-details h3, .project-client-details h3{
+    font-size: 16px;
+    color: #333; 
+    margin-bottom: 10px; 
+    border-bottom: 2px solid #007BFF; 
+    padding-bottom: 5px; 
+    text-transform: uppercase;
+    letter-spacing: 1px; 
+    font-weight: bold; 
+    transition: color 0.3s; 
+}
+
+.project-details label, 
+.project-client-details label {
+    display: block;
+    margin-top: 10px;
+    font-weight: 500;
+    color: #666;
+}
+
+.input-like{
+    display: inline-block;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+    margin-left: 10px;
+    flex-grow: 1;
+    font-size: 16px;
+    color: #333;
+    width: 200px;
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis; 
+    cursor: default; 
+}

@@ -1,0 +1,42 @@
+.form-group-incorrect .form-input input,
+.form-group-incorrect .form-input select {
+    border: 1px solid #e60000; 
+    box-shadow:  0 0 5px 3px rgba(230, 0, 0, 0.8);; 
+    border-radius: 4px;
+    background-color: #f9f9f9;
+}
+
+
+.form-input input,
+.form-input select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+    font-size: 16px;
+}
+
+/* Estilos de la etiqueta con error */
+.form-group-incorrect .form-label {
+    color: #bb2929;
+}
+
+.form-input-error-active {
+    display: block;
+    color: #bb2929;
+    font-size: 14px;
+    visibility: visible;
+    margin-top: 4px;
+}
+
+.form-input-error-inactive {
+    visibility: hidden;
+    color: #e60000;
+    font-size: 14px;
+    height: auto;
+    margin-top: 4px;
+}
